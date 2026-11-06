@@ -1,0 +1,27 @@
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda / virtual environments
+.venv/
+venv/
+env/
+
+# MNIST dataset
+data/
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Keep generated experiment figures and GIFs
