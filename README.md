@@ -34,7 +34,7 @@ q(x_t \mid x_{t-1}) =
 \mathcal{N}(x_t;\sqrt{1-\beta_t}x_{t-1},\beta_t I)
 $$
 
-where \(\beta_t\) controls the noise variance.
+where $\beta_t$ controls the noise variance.
 
 Define:
 
@@ -53,7 +53,7 @@ x_t=\sqrt{\bar{\alpha}_t}x_0+
 \sqrt{1-\bar{\alpha}_t}\epsilon
 $$
 
-where \(\epsilon\sim\mathcal{N}(0,I)\).
+where $\epsilon\sim\mathcal{N}(0,I)$.
 
 ### Noise Prediction Objective
 
@@ -100,7 +100,7 @@ $$
 x_{t-1}=\mu_\theta(x_t,t)+\sigma_t z
 $$
 
-where \(z\sim\mathcal{N}(0,I)\) for \(t>1\), and no additional noise is added at the final step. The implementation uses the DDPM posterior variance for \(\sigma_t^2\).
+where $z\sim\mathcal{N}(0,I)$ for $t>1$, and no additional noise is added at the final step. The implementation uses the DDPM posterior variance for $\sigma_t^2$.
 
 ## 3. Model Architecture
 
